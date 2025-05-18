@@ -8,14 +8,10 @@
     "gphotos-scraper": "./dist/cli.js"
   },
   "private": false,
-  "scripts": {
-    "lint": "eslint --ext .ts .",
-    "lint:fix": "eslint --fix --ext .ts .",
-    "build": "tsc",
-    "build:watch": "tsc -w",
-    "test": "exit 0",
-    "prepublish": "npm run build"
-  },
+"scripts": {
+  "build": "tsc",
+  "start": "node dist/server.js"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jmsalazardev/gphotos-scraper.git"
